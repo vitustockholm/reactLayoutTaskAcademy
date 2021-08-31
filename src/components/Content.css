@@ -1,0 +1,25 @@
+/* MOBILE */
+
+.content {
+  height: 250px;
+  width: 100%;
+  background-color: #d1d3d5;
+
+  /* centering text inside section no content yet  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+/* TABLE */
+
+/* DESKOP  */
+
+@media screen and (min-width: 1280px) {
+  .content {
+    height: 300px;
+
+    order: 4;
+  }
+}

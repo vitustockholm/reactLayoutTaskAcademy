@@ -1,0 +1,54 @@
+/* MOBILE */
+
+.feature {
+  height: 150px;
+  width: 100%;
+
+  /* centering text inside section no content yet  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 2em;
+}
+
+.ft-bg-orange {
+  background-color: #f5cf8e;
+}
+
+.ft-bg-red {
+  background-color: #f09a9d;
+}
+
+.ft-bg-purple {
+  background-color: #9592f2;
+}
+
+/* TABLET  */
+@media screen and (min-width: 768px) {
+  .feature {
+    width: 50%;
+    height: 200px;
+  }
+}
+
+/* DESKOP */
+
+/* TABLET  */
+@media screen and (min-width: 1280px) {
+  .feature {
+    width: calc(100% / 3);
+    height: 300px;
+  }
+
+  .ft-bg-orange {
+    order: 0;
+  }
+
+  .ft-bg-red {
+    order: 2;
+  }
+
+  .ft-bg-purple {
+    order: 1;
+  }
+}
